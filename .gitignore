@@ -19,9 +19,11 @@
 
 # Ignore Byebug command history file.
 .byebug_history
-
 config/secrets.yml
 config/database.yml
-/Guardfile
-# Ignore Spring files.
-/spring/*.pid
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
